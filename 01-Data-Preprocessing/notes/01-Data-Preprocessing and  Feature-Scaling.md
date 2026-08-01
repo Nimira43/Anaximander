@@ -44,7 +44,7 @@ Without scaling, features with large ranges can dominate gradient updates or dis
 ### **Common Scaling Techniques**
 
 | Technique | Formula | Typical Use | Notes |
-|------------|----------|--------------|-------|
+| ------------ | ---------- | -------------- | ------- |
 | **Min‑Max Scaling** | \(x' = \frac{x - x_{min}}{x_{max} - x_{min}}\) | Neural networks, image data | Scales to [0, 1] or custom range |
 | **Standardisation (Z‑score)** | \(x' = \frac{x - \mu}{\sigma}\) | Linear models, PCA | Centres at 0, unit variance |
 | **Robust Scaling** | \(x' = \frac{x - \text{median}}{\text{IQR}}\) | Outlier‑heavy data | Less sensitive to extreme values |
